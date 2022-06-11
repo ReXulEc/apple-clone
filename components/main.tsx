@@ -37,6 +37,7 @@ export const Main: FC = () => {
           </div>
         </div>
       </div>
+
       <div className="grid space-y-1.5 justify-items-center bg-rgb bg-cover py-8 airpods">
         <p className="text-5xl font-semibold">AirPods</p>
         <p className="text-2xl font-medium">with Spatial Audio</p>
@@ -45,6 +46,21 @@ export const Main: FC = () => {
             <a className="flex items-center" href="">Buy <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></a>
           </div>
       </div>
+
+
+      <div className="flex">
+        <div className="p-2 w-1/2">
+          <div className="p-2 h-[80vh] bg-stone-900">
+            
+          </div>
+        </div>
+        <div className="p-2 w-1/2">
+          <div className="p-2 h-[80vh] bg-stone-900">
+            
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 };
