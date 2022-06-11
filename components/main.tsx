@@ -10,7 +10,7 @@ export const Main: FC = () => {
               <p className="md:text-5xl text-4xl font-semibold tracking-tight">MacBook Air</p>
                 <div className="flex space-x-4 items-center">
                   <p className=" font-light text-2xl">Supercharged by</p>
-                  <img className="" src="https://www.apple.com/v/home/takeover/c/images/overview/macbook-air/supercharged_mba__d3aczbb0h4ia_large" alt="" />
+                  <img className="" src="https://www.apple.com/v/home/takeover/c/images/overview/macbook-air/supercharged_mba__d3aczbb0h4ia_large.jpg" alt="" />
                 </div>
                 <p className="text-gray-500 font-medium text-xl">Available next month</p>
                 <div className="flex space-x-2 font-medium text-xl">
