@@ -11,6 +11,9 @@ module.exports = {
     extend: {
       colors: {
       },
+      backgroundImage: {
+        'rgb': "url('/assets/rgb.gif')"
+      }
     },
   },
   plugins: [],
