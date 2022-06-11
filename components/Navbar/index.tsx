@@ -3,7 +3,7 @@ import {BrowserView, MobileView} from 'react-device-detect';
 
 export const Navbar: FC = () => {
   return (
-    <div className="flex items-center justify-center sticky top-0 bg-[#000000cb] contrast-200 backdrop-blur-md text-white p-2">
+    <div className="flex items-center justify-center sticky top-0 bg-[#000000cb] contrast-200 backdrop-blur-3xl text-white p-2">
       <div className="flex justify-center">
           <div className="flex md:w-8/12 w-10/12 justify-between">
           <BrowserView className="flex items-center justify-between w-screen">
