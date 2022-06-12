@@ -46,21 +46,40 @@ export const Main: FC = () => {
             <a className="flex items-center" href="">Buy <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></a>
           </div>
       </div>
-
-
-      <div className="flex">
-        <div className="p-2 w-1/2">
-          <div className="p-2 h-[80vh] bg-stone-900">
-            
-          </div>
-        </div>
-        <div className="p-2 w-1/2">
-          <div className="p-2 h-[80vh] bg-stone-900">
-            
-          </div>
-        </div>
-      </div>
-
     </div>
   );
 };
+
+/*
+      <div className="flex text-white">
+        <div className="p-2 w-1/2 ">
+          <div className="p-2 h-full bg-black">
+            <div className="grid justify-items-center py-10">
+              <p className="text-4xl font-semibold">MacBook Pro 13"</p>
+              <img src="/assets/superchargedby.png" alt="" />
+              <p className="font-light text-gray-500">Availible next month</p>
+              <div className="flex space-x-4 text-lg text-blue-500">
+                <a className="flex items-center" href="">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></a>
+                <a className="flex items-center" href="">View pricing <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></a>
+              </div>
+            </div>
+            <div className="flex items-end bg-gray-500">
+              <img className="w-full" src="/assets/blobs/l1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="p-2 w-1/2 ">
+          <div className="p-2 h-full bg-[#fbfbfd] text-black">
+            <div className="grid justify-items-center py-10">
+              <p className="text-4xl font-semibold">iPhone 13 Pro</p>
+              <p className="text-2xl py-1">Oh. So. Pro.</p>
+              <div className="flex space-x-4 text-lg text-blue-500">
+                <a className="flex items-center" href="">Learn more <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></a>
+                <a className="flex items-center" href="">Buy <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></a>
+              </div>
+              <img className="flex mt-20" src="/assets/blobs/l2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+*/
